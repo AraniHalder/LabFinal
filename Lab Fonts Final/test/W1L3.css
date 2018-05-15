@@ -1,0 +1,281 @@
+body {
+  background-color: white;
+  --a-color: black;
+  --c-color: black;
+  --n-color: white;
+  overflow: hidden;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin: 0px auto;
+  position: relative;
+}
+
+.lettera{
+	top:200px;
+	left:200px;
+	position: relative;
+	width:200px;
+	height: 200px;
+	background: transparent;
+	margin:0;
+	padding: 0;
+}
+
+.lettera:hover {
+	/*background: black!important;*/
+	--a-color: black!important;
+}
+
+
+
+#a1{
+	position: absolute;
+	background: var(--a-color);
+	width: 20px;
+	height: 70px;
+	left: 100px;
+	top:130px;
+}
+
+#at2 {
+	width: 0px;
+	height: 0;
+	border-bottom: 20px solid var(--a-color);
+	border-left: 20px solid transparent;
+	position: absolute;
+	left:100px;
+	top:115.4px;
+}
+
+#as3{
+	position: absolute;
+	background: var(--a-color);
+	width: 5px;
+	height: 60px;
+	left: 120.5px;
+	top:81.4px;
+	transform: rotate(45deg);
+}
+
+#a4{
+	position: absolute;
+	background: var(--a-color);
+	width: 65px;
+	height: 5px;
+	left: 100px;
+	top:200px;
+}
+
+#as6{
+	position: absolute;
+	background: var(--a-color);
+	width: 5px;
+	top: -10px;
+    left:249px;
+    height: 250px;
+	transform: rotate(45deg);
+	animation: helo 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+/*@keyframes helo {
+    0% {
+        height: 55px;
+    }
+    100% {
+    	position: absolute;
+    	top: -10px;
+    	left:249px;
+        height: 250px;
+    }
+}*/
+
+#a7{
+	position: absolute;
+	background: var(--a-color);
+	width: 20px;
+	height: 117px;
+	left: 195px;
+	top:88px;
+	animation: one 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@keyframes one {
+    0% {
+        height:117px;
+    }
+    100% {
+    	width: 20px;
+		height: 617px;
+		left: 195px;
+		top:88px;
+    }
+}
+
+#a8{
+	position: absolute;
+	background: var(--a-color);
+	width: 70px;
+	height: 5px;
+	left: 143.4px;
+	top:88px;
+}
+
+
+
+.letterc{
+	top:-175px;
+	left:475.5px;
+	position: relative;
+	width:200px;
+	height: 200px;
+	background: transparent;
+	margin:0;
+	padding: 0;
+}
+
+.letterc:hover {
+	/*background: black!important;*/
+	--c-color: black!important;
+}
+
+#c1{
+	position: absolute;
+	background: var(--c-color);
+	width: 20px;
+	height: 70px;
+	left: 0px;
+	top:130px;
+}
+
+#ct2 {
+	width: 0px;
+	height: 0;
+	border-bottom: 20px solid var(--c-color);
+	border-left: 20px solid transparent;
+	position: absolute;
+	left:0px;
+	top:115.4px;
+}
+
+#cs3{
+	position: absolute;
+	background: var(--c-color);
+	width: 5px;
+	height: 60px;
+	left: 20.5px;
+	top:80.4px;
+	transform: rotate(45deg);
+}
+
+#c4{
+	position: absolute;
+	background: var(--c-color);
+	width: 65px;
+	height: 5px;
+	left: 0px;
+	top:200px;
+}
+
+#cs6{
+	position: absolute;
+	background: var(--c-color);
+	width: 5px;
+	height: 55px;
+	left: 80.4px;
+	top:156.4px;
+	transform: rotate(45deg);
+}
+
+#c8{
+	position: absolute;
+	background: var(--c-color);
+	width: 60px;
+	height: 5px;
+	left: 43.4px;
+	top:87px;
+	animation: two 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@keyframes two {
+    0% {
+        width: 60px;
+    }
+    100% {
+    	width: 300px;
+    }
+}
+
+.lettern{
+	top:-296px;
+	left:775.5px;
+	position: relative;
+	width:110px;
+	height: 130px;
+	background: transparent;
+	margin:0;
+	padding: 0;
+}
+
+.lettern:hover {
+	/*background: black!important;*/
+	--n-color: black!important;
+}
+
+#n1{
+	position: absolute;
+	background: var(--n-color);
+	width: 20px;
+	height: 75px;
+	left: 0px;
+	top:50px;
+}
+
+#n2 {
+	width: 0px;
+	height: 0;
+	border-bottom: 20px solid var(--n-color);
+	border-left: 20px solid transparent;
+	position: absolute;
+	left:0px;
+	top:35.4px;
+}
+
+#n3{
+	position: absolute;
+	background: var(--n-color);
+	width: 5px;
+	height: 60px;
+	left: 20.5px;
+	top:1.4px;
+	transform: rotate(45deg);
+}
+
+#n4{
+	position: absolute;
+	background: var(--n-color);
+	width: 20px;
+	height: 117px;
+	left: 85px;
+	top:8px;
+}
+
+#n5{
+	position: absolute;
+	background: var(--n-color);
+	width: 60px;
+	height: 5px;
+	left: 43.4px;
+	top:8px;
+}
+
+

@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  --a-color: white;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin: 0px auto;
+  position: relative;
+}
+
+.intro{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	font-family: "Roboto";
+	font-size: 30px;
+	left: 530px;
+	top:280px; 
+	animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.lettera{
+	top:100px;
+	left:250px;
+	position: relative;
+	width:120px;
+	height: 130px;
+	background: white;
+	margin:0;
+	padding: 0;
+}
+
+.lettera:hover {
+	/*background: black!important;*/
+	--a-color: black!important;
+}
+
+
+
+#a1{
+	position: absolute;
+	background: var(--a-color);
+	width: 100px;
+	height: 5px;
+	left: 0px;
+	top:58px;
+}
+
+#at2 {
+	width: 0px;
+	height: 0;
+	border-bottom: 20px solid var(--a-color);
+	border-left: 20px solid transparent;
+	position: absolute;
+	left:0px;
+	top:32.4px;
+}
+
+#as3{
+	position: absolute;
+	background: var(--a-color);
+	width: 5px;
+	height: 60px;
+	left: 20.5px;
+	top:1.4px;
+	transform: rotate(45deg);
+}
+
+#a4{
+	position: absolute;
+	background: var(--a-color);
+	width: 65px;
+	height: 5px;
+	left: 0px;
+	top:120px;
+}
+
+#as6{
+	position: absolute;
+	background: var(--a-color);
+	width: 5px;
+	height: 55px;
+	left: 80.4px;
+	top:76.4px;
+	transform: rotate(45deg);
+}
+
+#a7{
+	width: 0px;
+	height: 0;
+	border-bottom: 20px solid var(--a-color);
+	border-left: 20px solid transparent;
+	position: absolute;
+	left:100px;
+	top:70.4px;
+	transform: rotate(180deg);
+}
+
+#a8{
+	position: absolute;
+	background: var(--a-color);
+	width: 70px;
+	height: 5px;
+	left: 43.4px;
+	top:8px;
+}
+#a9{
+	position: absolute;
+	background: var(--a-color);
+	width: 20px;
+	height:12px;
+	left: 100px;
+	top:58px;
+}
+#a10{
+	position: absolute;
+	background: var(--a-color);
+	width: 20px;
+	height: 9px;
+	left: 0px;
+	top:51px;
+}
